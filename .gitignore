@@ -1,0 +1,4 @@
+.venv/
+hotkeys.json
+__pycache__/
+*.pyc
