@@ -18,6 +18,20 @@
 #   👉 In Command Prompt, go to the folder and type:
 #       python main.py
 #
+#For VS Code users:
+#3. **Open VS Code**
+#   - Launch Visual Studio Code
+#   - Click **File → Open Folder** and select the extracted `HeshClicks` folder
+#
+#4. **Open the terminal inside VS Code**
+#   - Go to **View → Terminal** (or press ``Ctrl+` ``)
+#   - Make sure the terminal path shows your `HeshClicks` folder
+#
+#5. **Install requirements**
+#   ```bash
+#   pip install -r requirements.txt
+
+#
 # Step 5: Play with it!
 #   👉 Clickers tab: start left/right auto-clickers.
 #   👉 Keyboard tab: type any text instantly.
@@ -528,7 +542,7 @@ def build_gui():
               justify="left", font=("Segoe UI", 10)).pack(pady=4)
 
     link_row = ttk.Frame(about_panel); link_row.pack(pady=10)
-    def open_github(): webbrowser.open("https://github.com/yourusername/HeshClicks")  
+    def open_github(): webbrowser.open("https://github.com/heshfr/HeshClicks")  
     def open_linkedin(): webbrowser.open("https://www.linkedin.com/in/hetesh-vichare-5895a4219/")   
     ttk.Button(link_row, text="View on GitHub", command=open_github).pack(side="left", padx=6)
     ttk.Button(link_row, text="Connect on LinkedIn", command=open_linkedin).pack(side="left", padx=6)
